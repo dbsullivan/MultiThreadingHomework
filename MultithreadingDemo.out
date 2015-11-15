@@ -1,4 +1,100 @@
-2015-11-03 10:04:26,887 0    [main] INFO  edu.matc.MyThreadLauncher  - Just before creating a new thread
-2015-11-03 10:04:26,889 2    [Thread-0] INFO  edu.matc.MyThread  - In MyThread
-2015-11-03 10:04:39,825 0    [main] INFO  edu.matc.MyRunnableLauncher  - Just before creating a new thread
-2015-11-03 10:04:39,828 3    [Thread-0] INFO  edu.matc.MyRunnable  - In MyRunnable
+2015-11-15 09:38:38,996 0    [main] INFO  edu.matc.MyThreadLauncher  - Just before creating a new thread
+2015-11-15 09:38:38,997 1    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...AAA == true at priority: 5
+2015-11-15 09:38:38,997 1    [Thread...AAA] INFO  edu.matc.MyThread  - In MyThread
+2015-11-15 09:38:38,997 1    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...BBB == true at priority: 5
+2015-11-15 09:38:38,997 1    [Thread...CCC] INFO  edu.matc.MyThread  - In MyThread
+2015-11-15 09:38:38,997 1    [Thread...BBB] INFO  edu.matc.MyThread  - In MyThread
+2015-11-15 09:38:38,998 2    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...CCC == true at priority: 5
+2015-11-15 09:38:38,998 2    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...AAA == 0
+2015-11-15 09:38:38,998 2    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...BBB == 0
+2015-11-15 09:38:38,998 2    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...CCC == 0
+2015-11-15 09:38:38,998 2    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...AAA == 1447601918998
+2015-11-15 09:38:38,998 2    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...BBB == 1447601918998
+2015-11-15 09:38:38,998 2    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...CCC == 1447601918998
+2015-11-15 09:38:38,998 2    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...AAA == false at priority: 5
+2015-11-15 09:38:38,998 2    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...BBB == false at priority: 5
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...CCC == false at priority: 5
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...AAA == 1
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...BBB == 1
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...CCC == 1
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...AAA == 1447601918999
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...BBB == 1447601918999
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...CCC == 1447601918999
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...AAA == false at priority: 5
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...BBB == false at priority: 5
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...CCC == false at priority: 5
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...AAA == 2
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...BBB == 2
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...CCC == 2
+2015-11-15 09:38:38,999 3    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...AAA == 1447601918999
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...BBB == 1447601919000
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...CCC == 1447601919000
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...AAA == false at priority: 5
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...BBB == false at priority: 5
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...CCC == false at priority: 5
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...AAA == 3
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...BBB == 3
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...CCC == 3
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...AAA == 1447601919000
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...BBB == 1447601919000
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...CCC == 1447601919000
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...AAA == false at priority: 5
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...BBB == false at priority: 5
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...CCC == false at priority: 5
+2015-11-15 09:38:39,000 4    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...AAA == 4
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...BBB == 4
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...CCC == 4
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...AAA == 1447601919001
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...BBB == 1447601919001
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...CCC == 1447601919001
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...AAA == false at priority: 5
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...BBB == false at priority: 5
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...CCC == false at priority: 5
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...AAA == 5
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...BBB == 5
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...CCC == 5
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...AAA == 1447601919001
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...BBB == 1447601919001
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...CCC == 1447601919001
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...AAA == false at priority: 5
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...BBB == false at priority: 5
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...CCC == false at priority: 5
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...AAA == 6
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...BBB == 6
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...CCC == 6
+2015-11-15 09:38:39,001 5    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...AAA == 1447601919001
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...BBB == 1447601919002
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...CCC == 1447601919002
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...AAA == false at priority: 5
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...BBB == false at priority: 5
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...CCC == false at priority: 5
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...AAA == 7
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...BBB == 7
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...CCC == 7
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...AAA == 1447601919002
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...BBB == 1447601919002
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...CCC == 1447601919002
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...AAA == false at priority: 5
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...BBB == false at priority: 5
+2015-11-15 09:38:39,002 6    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...CCC == false at priority: 5
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...AAA == 8
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...BBB == 8
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...CCC == 8
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...AAA == 1447601919003
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...BBB == 1447601919003
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...CCC == 1447601919003
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...AAA == false at priority: 5
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...BBB == false at priority: 5
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...CCC == false at priority: 5
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...AAA == 9
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...BBB == 9
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread sleeping counter for Thread...CCC == 9
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...AAA == 1447601919003
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...BBB == 1447601919003
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Slept time ms for Thread...CCC == 1447601919003
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...AAA == false at priority: 5
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...BBB == false at priority: 5
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...CCC == false at priority: 5
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...AAA == false at priority: 5
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...BBB == false at priority: 5
+2015-11-15 09:38:39,003 7    [main] INFO  edu.matc.MyThreadLauncher  - Thread is Alive status for Thread...CCC == false at priority: 5

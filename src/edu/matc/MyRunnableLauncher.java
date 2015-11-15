@@ -7,7 +7,7 @@ import org.apache.log4j.Logger;
  * @author paulawaite
  * @version 1.0 10/31/15.
  */
-public class MyRunnableLauncher {
+public class MyRunnableLauncher  {
     private final Logger logger = Logger.getLogger(this.getClass());
 
     public void run() {
