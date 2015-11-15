@@ -64,7 +64,7 @@ public class MyThreadLauncher {
         aliveThread(myThreadC);
 
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             logger.info("Thread sleeping counter for " + myThreadA.getName() + " == " + i);
             logger.info("Thread sleeping counter for " + myThreadB.getName() + " == " + i);
             logger.info("Thread sleeping counter for " + myThreadC.getName() + " == " + i);
