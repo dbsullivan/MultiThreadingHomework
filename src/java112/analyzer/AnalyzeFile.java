@@ -101,7 +101,9 @@ public class AnalyzeFile {
         properties = new Properties();
         //System.out.println("Getting ready to load" + propertiesFilePath);
         try {
-            properties.load(this.getClass().getResourceAsStream(propertiesFilePath));
+//            properties.load(this.getClass().getResourceAsStream(propertiesFilePath));
+            //Dave changed for Intellij properties in resources\ folder
+            properties.load(this.getClass().getClassLoader().getResourceAsStream(propertiesFilePath));
 
         } catch (IOException ioe) {
             System.out.println("Can't load the properties file" + propertiesFilePath);

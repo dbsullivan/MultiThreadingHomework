@@ -1,6 +1,6 @@
 Application: FileCruncher
 Author: Eric Knapp
 Email: eknapp@gmail.com
-Input File: input/bigfile.txt
-Analysis time stamp: Tue Nov 03 10:29:24 CST 2015
+Input File: input\bigFile.txt
+Analysis time stamp: Mon Nov 16 09:04:26 CST 2015
 Total Token Count: 4468588
